@@ -17,8 +17,8 @@
 
 <body onLoad="start()" id="bdy">
     <div id="menuhamb" class='menuhamb' class="animate__animated animate__fadeInLeft">
-        <img src="./images/icon-close.svg" alt="close" id="menuclose" onclick="closemenu()">
-        <nav id="navbarmin">
+        <img src="./images/icon-close.svg" alt="close" id="menuclose" class="menuclose" onclick="closemenu()">
+        <nav id="navbarmin" class="navbarmin">
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./pages/chisiamo.html">Chi siamo</a></li>
@@ -47,7 +47,7 @@
             <p id="cattext" class="cattext">Non perdere le nostre ultime offerte e rimani costantemente aggiornato
                 grazie al nostro
                 catalogo online. All'interno troverai il volantino contenente le promozioni e gli articoli in saldo</p>
-            <form action="https://tuttomattolini.domex.it/homepage/" target="_blank" id="formbtn">
+            <form action="https://tuttomattolini.domex.it/homepage/" target="_blank" id="formbtn" class="formbtn">
                 <button type="submit" id="btncat" class="btncat">Scopri subito</button>
             </form>
 
@@ -59,7 +59,8 @@
         <img src="./images/Mockup.png" alt="imgsocial" id="imgsocial" class="imgsocial">
         <div id="seconddiv" class="seconddiv">
             <h2>I nostri social</h2>
-            <p id="secondtext">Venite a scoprire i nostri social per comunicare facilmente con noi e scoprire i nuovi
+            <p id="secondtext" class="secondtext">Venite a scoprire i nostri social per comunicare facilmente con noi e
+                scoprire i nuovi
                 articoli in arrivo ogni giorno.</p>
             <div class="social-container">
                 <p id="scoprisocial" class="scoprisocial">Visita ora</p>
@@ -96,8 +97,8 @@
         </div>
     </div>
 
-    <div id="fourth">
-        <div id="fourthtext">
+    <div id="fourth" class="fourth">
+        <div id="fourthtext" class="fourthtext">
             <h4>I NOSTRI SERVIZI</h4>
             <P>Offriamo numerosi servizi per aiutare i nostri clienti e collaboriamo con numerosi partners.</P>
             <ul>
@@ -112,11 +113,11 @@
             </ul>
         </div>
 
-        <div id="partners">
+        <div id="partners" class="partners">
             <h4>I NOSTRI PARTNERS</h4>
-            <div id="part">
+            <div id="part" class="part">
                 <img src="./images/icon-previous.svg" alt="prev" class="iconpart" onclick="prev();">
-                <img src="./images/tim.jpg" alt="tim" id="imgpart">
+                <img src="./images/tim.jpg" alt="tim" id="imgpart" class="imgpart">
                 <img src="./images/icon-next.svg" alt="next" class="iconpart" onclick="next();">
             </div>
 
@@ -125,26 +126,27 @@
     </div>
 
     <!--Footer-->
-    <div id="footer">
-        <div id="contatti">
+    <div id="footer" class="footer">
+        <div id="contatti" class="contatti">
             <h4>CONTATTI</h4>
             <p><img src="./images/posizione.png" alt="posizione" class="iconcontact"> S. Pertini,12 56033 Capannoli (PI)
             </p>
             <p><img src="./images/telefono.png" alt="telefono" class="iconcontact"> 0587 608350</p>
             <p><img src="./images/fax.png" alt="fax" class="iconcontact"> 0587 608351</p>
             <p><img src="./images/email.png" alt="email" class="iconcontact"> info@tuttomattolini.it</p>
-            <p id="piva">P.IVA:01135810503</p>
+            <p id="piva" class="piva">P.IVA:01135810503</p>
 
         </div>
 
-        <div id="orari">
+        <div id="orari" class="orari">
             <h4>ORARI DI APERTURA</h4>
             <p><img src="./images/orari.png" alt="orologio" class="iconcontact"> Lun: 15.30 - 19.30 <br>
-            <p id="textorari">Mar - Sab: 9.00 - 13.00 15.30 - 19.30 <br> Domenica: Solo Dicembre 15.30 - 19.30 </p>
+            <p id="textorari" class="textorari">Mar - Sab: 9.00 - 13.00 15.30 - 19.30 <br> Domenica: Solo Dicembre 15.30
+                - 19.30 </p>
             </p>
         </div>
 
-        <div id="social">
+        <div id="social" class="social">
             <h4>SOCIAL</h4>
             <a href="https://www.facebook.com/TuttoMattolini" target="_blank"><img src="./images/fb.png" alt="facebook"
                     class="socialicon"></a>

@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -132,7 +133,7 @@ body {
   background-color: lightgray;
 }
 
-#secondtext {
+.secondtext {
   width: 70%;
   margin-top: 2%;
   margin-bottom: 10%;
@@ -187,195 +188,139 @@ body {
   font-size: 13px;
 }
 
-@media all and (max-width: 2000px) {
-  #fourth h4 {
-    font-size: 25px;
-    font-weight: bolder;
-  }
-  #footer {
-    background-color: black;
-    height: auto;
-    color: white;
-    display: flex;
-    justify-content: center;
-    gap: 10%;
-  }
-  .socialicon {
-    width: 35px;
-    height: 35px;
-  }
-  #social {
-    margin-top: 2%;
-  }
-  #footer h4 {
-    font-size: 14px;
-    margin-bottom: 3%;
-  }
-  .iconcontact {
-    width: 6%;
-  }
-  #textorari {
-    margin-left: 7%;
-    line-height: 1.5;
-  }
-  #contatti {
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-  #social h4 {
-    font-size: 14px;
-    margin-bottom: 0;
-  }
-  #orari {
-    margin-top: 2%;
-  }
-  #fourth {
-    width: 100%;
-    height: 500px;
-    background-color: lightgray;
-    display: flex;
-    gap: 7%;
-    justify-content: center;
-  }
-  #fourthtext {
-    margin-top: 5%;
-  }
-  #fourth p {
-    width: 70%;
-    margin-top: 1%;
-  }
-  #partners {
-    margin-top: 5%;
-  }
-  .iconpart {
-    background-color: white;
-    padding: 2%;
-    border-radius: 18px;
-    cursor: pointer;
-  }
-  #imgpart {
-    width: 80%;
-  }
-  #fourth ul {
-    margin-top: 3%;
-  }
-  #part {
-    display: flex;
-    align-items: center;
-    gap: 3%;
-    transition: all 0.5s;
-    margin-top: 5%;
-    margin-left: -17%;
-  }
+.fourth h4 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.footer {
+  background-color: black;
+  height: auto;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+.socialicon {
+  width: 35px;
+  height: 35px;
+}
+
+.social {
+  margin-top: 2%;
+}
+
+.footer h4 {
+  font-size: 14px;
+  margin-bottom: 3%;
+}
+
+.iconcontact {
+  width: 20px;
+}
+
+.textorari {
+  line-height: 1.5;
+}
+
+.contatti {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.social h4 {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.orari {
+  margin-top: 2%;
+}
+
+.fourth {
+  width: 100%;
+  height: 500px;
+  background-color: lightgray;
+  display: flex;
+  gap: 7%;
+  justify-content: center;
+}
+
+.fourthtext {
+  margin-top: 5%;
+}
+
+#fourth p {
+  width: 70%;
+  margin-top: 1%;
+}
+
+.fourthtext {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.partners {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.iconpart {
+  padding: 2%;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.imgpart {
+  width: 80%;
+}
+
+.fourth ul {
+  margin-top: 3%;
+  margin-left: 15%;
+}
+
+.part {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  transition: all 0.5s;
+  margin-top: 5%;
+  justify-content: center;
 }
 
 @media all and (max-width: 1300px) {
   .imgcatalogoonline {
     height: 400px;
   }
-
-  #fourth h4 {
-    font-size: 25px;
-    font-weight: bolder;
-  }
-  #footer {
-    background-color: black;
-    height: auto;
-    color: white;
-    display: flex;
-    justify-content: center;
-    gap: 10%;
-  }
-  .socialicon {
-    width: 35px;
-    height: 35px;
-  }
-  #social {
-    margin-top: 2%;
-  }
-  #footer h4 {
-    font-size: 14px;
-    margin-bottom: 3%;
-  }
-  .iconcontact {
-    width: 6%;
-  }
-  #textorari {
-    margin-left: 7%;
-    line-height: 1.5;
-  }
-  #contatti {
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-  #social h4 {
-    font-size: 14px;
-    margin-bottom: 0;
-  }
-  #orari {
-    margin-top: 2%;
-  }
-  #fourth {
-    width: 100%;
-    height: 500px;
-    background-color: lightgray;
-    display: flex;
-    gap: 7%;
-    justify-content: center;
-  }
-  #fourthtext {
-    margin-top: 5%;
-  }
-  #fourth p {
-    width: 70%;
-    margin-top: 1%;
-  }
-  #partners {
-    margin-top: 5%;
-  }
-  .iconpart {
-    background-color: white;
-    padding: 2%;
-    border-radius: 18px;
-    cursor: pointer;
-  }
-  #imgpart {
-    width: 80%;
-  }
-  #fourth ul {
-    margin-top: 3%;
-  }
-  #part {
-    display: flex;
-    align-items: center;
-    gap: 3%;
-    transition: all 0.5s;
-    margin-top: 5%;
-    margin-left: -17%;
-  }
 }
 
 @media all and (max-width: 1100px) {
-  #navbar a {
+  .navbar a {
     text-decoration: none;
     color: white;
     font-size: 17px;
     text-transform: uppercase;
   }
 
-  #logo {
+  .logo {
     width: 40px;
     height: 40px;
     margin-left: 3%;
   }
-  #title {
+  .title {
     width: 50%;
   }
 
   .back h2 {
     font-size: 20px;
-    color: white;
-    text-align: center;
     margin-top: 4%;
   }
   .titlehome {
@@ -399,10 +344,7 @@ body {
   .second {
     height: 450px;
   }
-  #secondtext {
-    /* width: 70%; */
-    margin-top: 2%;
-    margin-bottom: 10%;
+  .secondtext {
     font-size: 15px;
   }
   .scoprisocial {
@@ -413,86 +355,23 @@ body {
     font-size: 25px;
   }
 
-  #fourth h4 {
-    font-size: 25px;
-    font-weight: bolder;
+  .fourth h4 {
     text-align: center;
   }
-  #footer {
-    background-color: black;
-    height: auto;
-    color: white;
-    display: flex;
-    justify-content: center;
-    gap: 10%;
-  }
+
   .socialicon {
     width: 30px;
     height: 30px;
   }
-  #social {
-    margin-top: 2%;
-  }
+
   #footer h4 {
     font-size: 12px;
-    margin-bottom: 3%;
   }
-  .iconcontact {
-    width: 6%;
-  }
-  #textorari {
-    margin-left: 7%;
-    line-height: 1.5;
-  }
-  #contatti {
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-  #social h4 {
-    font-size: 14px;
-    margin-bottom: 0;
-  }
-  #orari {
-    margin-top: 2%;
-  }
-  #fourth {
-    width: 100%;
-    height: 500px;
-    background-color: lightgray;
-  }
-  #fourthtext {
-    margin-top: 5%;
-  }
-  #fourth p {
-    width: 70%;
-    margin-top: 1%;
-    margin-left: 15%;
-  }
-  #partners {
-    margin-top: 5%;
-  }
-  .iconpart {
-    background-color: white;
-    padding: 1%;
-    border-radius: 18px;
-    cursor: pointer;
-  }
-  #imgpart {
+
+  .imgpart {
     width: 35%;
   }
-  #fourth ul {
-    margin-top: 3%;
-    width: 70%;
-    margin-left: 15%;
-  }
-  #part {
-    display: flex;
-    align-items: center;
-    gap: 3%;
-    transition: all 0.5s;
-    margin-top: 5%;
-    justify-content: center;
-  }
+
   #footer p {
     font-size: 12px;
   }
@@ -502,7 +381,7 @@ body {
   .op {
     overflow-y: hidden;
   }
-  #menuhamb {
+  .menuhamb {
     background-color: black;
     position: absolute;
     width: 100%;
@@ -510,7 +389,7 @@ body {
     display: none;
     transition: 0.5s all;
   }
-  #navbarmin {
+  .navbarmin {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -518,24 +397,24 @@ body {
     height: 50%;
     margin-top: 25%;
   }
-  #menuclose {
+  .menuclose {
     margin-top: 2%;
     margin-left: 2%;
     width: 7%;
     cursor: pointer;
   }
-  #navbarmin li {
+  .navbarmin li {
     list-style: none;
     margin-bottom: 15%;
   }
-  #navbarmin a {
+  .navbarmin a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     font-size: 20px;
   }
 
-  #navbar ul {
+  .navbar ul {
     display: flex;
     width: 100%;
     height: 100%;
@@ -545,12 +424,6 @@ body {
     gap: 3%;
     display: none;
   }
-  #navbar a {
-    text-decoration: none;
-    color: white;
-    font-size: 17px;
-    text-transform: uppercase;
-  }
   .hamb {
     width: 4%;
     margin-right: 3%;
@@ -558,16 +431,13 @@ body {
     display: block;
   }
 
-  #first {
+  .first {
     width: 100%;
     height: 450px;
     flex-direction: column;
     align-items: center;
     margin-bottom: 5%;
     margin-top: 5%;
-    /* background-image: url('./images/imgcat.jpg');
-        background-repeat: round;
-        background-size: cover; */
   }
   .imgcatalogoonline {
     height: 150px;
@@ -580,14 +450,14 @@ body {
   .cat h2 {
     text-align: center;
   }
-  #formbtn {
+  .formbtn {
     text-align: center;
   }
   .btncat {
     font-weight: 700;
     margin-bottom: 3%;
   }
-  #second {
+  .second {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -595,8 +465,7 @@ body {
     height: 450px;
     gap: 10%;
   }
-  #secondtext {
-    /* width: 70%; */
+  .secondtext {
     width: 80%;
     margin: 0;
   }
@@ -610,10 +479,10 @@ body {
     order: 2;
     margin: 0;
   }
-  #second h2 {
+  .second h2 {
     margin-top: 2%;
   }
-  #seconddiv {
+  .seconddiv {
     margin-top: 0;
     display: flex;
     align-items: center;
@@ -623,95 +492,53 @@ body {
     order: 1;
   }
   .third {
-    /* align-items: center;
+    align-items: center;
     justify-content: center;
-    flex-direction: column; */
+    flex-direction: column;
+    gap: 5%;
     margin-top: 8%;
     margin-bottom: 10%;
   }
-
-  #fourth h4 {
-    font-size: 25px;
-    font-weight: bolder;
-    text-align: center;
+  .costumers,
+  .assistence,
+  .prof {
+    margin-bottom: 5%;
   }
-  #footer {
-    background-color: black;
-    height: auto;
-    color: white;
+
+  .footer {
     padding: 4% 0 4% 0;
+    display: flex;
+    flex-direction: column;
   }
   .socialicon {
     width: 30px;
     height: 30px;
   }
-  #social {
+  .social {
     margin-top: 4%;
     margin-left: 3%;
   }
-  #footer h4 {
-    font-size: 12px;
-    margin-bottom: 3%;
-  }
-  .iconcontact {
-    width: 6%;
-  }
-  #textorari {
-    margin-left: 7%;
-    line-height: 1.5;
-  }
-  #contatti {
-    margin-bottom: 2%;
+
+  /* .iconcontact {
+    width: 20px;
+  } */
+
+  .contatti {
     margin-left: 3%;
-  }
-  #social h4 {
-    font-size: 14px;
-    margin-bottom: 0;
-  }
-  #orari {
-    margin-top: 4%;
-    margin-left: 3%;
-  }
-  #fourth {
-    width: 100%;
-    height: 500px;
-    background-color: lightgray;
-  }
-  #fourthtext {
-    margin-top: 5%;
-  }
-  #fourth p {
-    width: 70%;
-    margin-top: 1%;
-    margin-left: 15%;
-  }
-  #partners {
-    margin-top: 5%;
-  }
-  .iconpart {
-    background-color: white;
-    padding: 1%;
-    border-radius: 18px;
-    cursor: pointer;
-  }
-  #imgpart {
-    width: 35%;
-  }
-  #fourth ul {
-    margin-top: 3%;
-    width: 70%;
-    margin-left: 15%;
-  }
-  #piva {
-    margin-left: 7%;
-    margin-top: 2%;
-  }
-  #part {
     display: flex;
-    align-items: center;
-    gap: 3%;
-    transition: all 0.5s;
-    margin-top: 5%;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .orari {
+    display: flex;
+    align-items: flex-start;
     justify-content: center;
+    flex-direction: column;
+    margin-left: 3%;
+  }
+
+  .fourth ul {
+    margin-left: 15%;
   }
 }
