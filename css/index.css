@@ -365,7 +365,7 @@ body {
     height: 30px;
   }
 
-  #footer h4 {
+  .footer h4 {
     font-size: 12px;
   }
 
@@ -373,7 +373,7 @@ body {
     width: 35%;
   }
 
-  #footer p {
+  .footer p {
     font-size: 12px;
   }
 }
