@@ -1,627 +1,176 @@
 @media all and (max-width: 2000px) and (min-width: 1391px) {
-    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;700;900&family=Montserrat&family=Red+Hat+Display:wght@400;500&family=Rubik:wght@300&display=swap');
-    *
-    {
-        margin: 0;
-        padding: 0;
-    }
-    body
-    {
-        font-family: 'Montserrat', sans-serif;
-    }
-    #hamb
-    {
-        display: none;
-    }
-    #menuhamb
-    {
-        display: none;
-    }
-    #navbar
-    {
-        width: 100%;
-        height: 70px;
-        background-color: black;
-        display: flex;
-        align-items: center;
-    }
-    #navbar li
-    {
-        list-style: none;
-    }
-    #navbar ul
-    {
-        display: flex;
-        width: 100%;
-        height: 100%;
-        margin-right: 5%;
-        align-items: center;
-        justify-content: flex-end;
-        gap: 3%;
-    }
-    #navbar a
-    {
-        text-decoration: none;
-        color: white;
-        font-size: 20px;
-        text-transform: uppercase;
-    }
-    #navbar a:hover
-    {
-        color: lightsalmon;
-    }
-    #logo
-    {
-        width: 50px;
-        height: 50px;
-        margin-left: 3%;
-    }
-    #title
-    {
-        width: 60%;
-    }
-    #backchi
-    {
-        width: 100%;
-        height: 200px;
-        background-color: orange;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-    }
-    #backchi h1
-    {
-        font-size: 50px;
-        font-weight: bolder;
-    }
-    #firstchi
-    {
-        display: flex;
-        gap: 10%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    #imgchisiamo
-    {
-        width: 40%;
-        margin-left: 5%;
-    }
-    #firsttext
-    {
-        margin-right: 5%;
-    }
-    #footer
-    {
-        background-color: black;
-        height: auto;
-        color: white;
-        display: flex;
-        justify-content: center;
-        gap: 10%;
-        margin-top: -1%;
-    }
-    .socialicon
-    {
-        width: 35px;
-        height: 35px;
-    }
-    #social
-    {
-        margin-top: 2%;
-    }
-    #footer h4
-    {
-        font-size: 14px;
-        margin-bottom: 3%;
-    }
-    .iconcontact
-    {
-        width: 6%;
-    }
-    #textorari
-    {
-        margin-left: 7%;
-        line-height: 1.5;
-    }
-    #contatti
-    {
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
-    #social h4
-    {
-        font-size: 14px;
-        margin-bottom: 0;
-    }
-    #orari
-    {
-        margin-top: 2%;
-    }
+  @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;700;900&family=Montserrat&family=Red+Hat+Display:wght@400;500&family=Rubik:wght@300&display=swap");
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  #title {
+    width: 60%;
+  }
+  #backchi {
+    width: 100%;
+    height: 200px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  #backchi h1 {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  #firstchi {
+    display: flex;
+    gap: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #imgchisiamo {
+    width: 40%;
+    margin-left: 5%;
+  }
+  #firsttext {
+    margin-right: 5%;
+  }
 }
 
 @media all and (max-width: 1390px) and (min-width: 1101px) {
-    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;700;900&family=Montserrat&family=Red+Hat+Display:wght@400;500&family=Rubik:wght@300&display=swap');
-    *
-    {
-        margin: 0;
-        padding: 0;
-    }
-    body
-    {
-        font-family: 'Montserrat', sans-serif;
-    }
-    #hamb
-    {
-        display: none;
-    }
-    #menuhamb
-    {
-        display: none;
-    }
-    #navbar
-    {
-        width: 100%;
-        height: 70px;
-        background-color: black;
-        display: flex;
-        align-items: center;
-    }
-    #navbar li
-    {
-        list-style: none;
-    }
-    #navbar ul
-    {
-        display: flex;
-        width: 100%;
-        height: 100%;
-        margin-right: 5%;
-        align-items: center;
-        justify-content: flex-end;
-        gap: 3%;
-    }
-    #navbar a
-    {
-        text-decoration: none;
-        color: white;
-        font-size: 20px;
-        text-transform: uppercase;
-    }
-    #navbar a:hover
-    {
-        color: lightsalmon;
-    }
-    #logo
-    {
-        width: 50px;
-        height: 50px;
-        margin-left: 3%;
-    }
-    #title
-    {
-        width: 60%;
-    }
-    #backchi
-    {
-        width: 100%;
-        height: 200px;
-        background-color: orange;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-    }
-    #backchi h1
-    {
-        font-size: 50px;
-        font-weight: bolder;
-    }
-    #firstchi
-    {
-        display: flex;
-        gap: 10%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    #imgchisiamo
-    {
-        width: 40%;
-        margin-left: 5%;
-    }
-    #firsttext
-    {
-        margin-right: 5%;
-    }
-    #footer
-    {
-        background-color: black;
-        height: auto;
-        color: white;
-        display: flex;
-        justify-content: center;
-        gap: 10%;
-        margin-top: -1%;
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-    }
-    .socialicon
-    {
-        width: 35px;
-        height: 35px;
-    }
-    #social
-    {
-        margin-top: 2%;
-    }
-    #footer h4
-    {
-        font-size: 14px;
-        margin-bottom: 3%;
-    }
-    .iconcontact
-    {
-        width: 6%;
-    }
-    #textorari
-    {
-        margin-left: 7%;
-        line-height: 1.5;
-    }
-    #contatti
-    {
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
-    #social h4
-    {
-        font-size: 14px;
-        margin-bottom: 0;
-    }
-    #orari
-    {
-        margin-top: 2%;
-    }
+  @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;700;900&family=Montserrat&family=Red+Hat+Display:wght@400;500&family=Rubik:wght@300&display=swap");
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  #title {
+    width: 60%;
+  }
+  #backchi {
+    width: 100%;
+    height: 200px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  #backchi h1 {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  #firstchi {
+    display: flex;
+    gap: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #imgchisiamo {
+    width: 40%;
+    margin-left: 5%;
+  }
+  #firsttext {
+    margin-right: 5%;
+  }
 }
 
 @media all and (max-width: 1100px) and (min-width: 770px) {
-    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;700;900&family=Montserrat&family=Red+Hat+Display:wght@400;500&family=Rubik:wght@300&display=swap');
-    *
-    {
-        margin: 0;
-        padding: 0;
-    }
-    body
-    {
-        font-family: 'Montserrat', sans-serif;
-    }
-    #hamb
-    {
-        display: none;
-    }
-    #menuhamb
-    {
-        display: none;
-    }
-    #navbar
-    {
-        width: 100%;
-        height: 70px;
-        background-color: black;
-        display: flex;
-        align-items: center;
-    }
-    #navbar li
-    {
-        list-style: none;
-    }
-    #navbar ul
-    {
-        display: flex;
-        width: 100%;
-        height: 100%;
-        margin-right: 5%;
-        align-items: center;
-        justify-content: flex-end;
-        gap: 3%;
-    }
-    #navbar a
-    {
-        text-decoration: none;
-        color: white;
-        font-size: 20px;
-        text-transform: uppercase;
-    }
-    #navbar a:hover
-    {
-        color: lightsalmon;
-    }
-    #logo
-    {
-        width: 50px;
-        height: 50px;
-        margin-left: 3%;
-    }
-    #title
-    {
-        width: 60%;
-    }
-    #backchi
-    {
-        width: 100%;
-        height: 200px;
-        background-color: orange;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-    }
-    #backchi h1
-    {
-        font-size: 50px;
-        font-weight: bolder;
-    }
-    #firstchi
-    {
-        display: flex;
-        gap: 10%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    #imgchisiamo
-    {
-        width: 40%;
-        margin-left: 5%;
-    }
-    #firsttext
-    {
-        margin-right: 5%;
-    }
-    #footer
-    {
-        background-color: black;
-        height: auto;
-        color: white;
-        display: flex;
-        justify-content: center;
-        gap: 10%;
-        margin-top: -1%;
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-    }
-    .socialicon
-    {
-        width: 35px;
-        height: 35px;
-    }
-    #social
-    {
-        margin-top: 2%;
-    }
-    #footer h4
-    {
-        font-size: 14px;
-        margin-bottom: 3%;
-    }
-    .iconcontact
-    {
-        width: 6%;
-    }
-    #textorari
-    {
-        margin-left: 7%;
-        line-height: 1.5;
-    }
-    #contatti
-    {
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
-    #social h4
-    {
-        font-size: 14px;
-        margin-bottom: 0;
-    }
-    #orari
-    {
-        margin-top: 2%;
-    }
+  @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;700;900&family=Montserrat&family=Red+Hat+Display:wght@400;500&family=Rubik:wght@300&display=swap");
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  #title {
+    width: 60%;
+  }
+  #backchi {
+    width: 100%;
+    height: 200px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  #backchi h1 {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  #firstchi {
+    display: flex;
+    gap: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #imgchisiamo {
+    width: 40%;
+    margin-left: 5%;
+  }
+  #firsttext {
+    margin-right: 5%;
+  }
 }
 
-@media (max-width: 769px)
-{
-    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;700;900&family=Montserrat&family=Red+Hat+Display:wght@400;500&family=Rubik:wght@300&display=swap');
-    *
-    {
-        margin: 0;
-        padding: 0;
-    }
-    body
-    {
-        font-family: 'Montserrat', sans-serif;
-    }
-    .op
-    {
-        overflow-y: hidden;
-    }
-    #hamb
-    {
-        width: 4%;
-        margin-right: 3%;
-        cursor: pointer;
-    }
-    #menuhamb
-    {
-        background-color: black;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        display: none;
-        transition: 0.5s all;
-    }
-    #menuclose
-    {
-        margin-top: 2%;
-        margin-left: 2%;
-        width: 7%;
-        cursor: pointer;
-    }
-    #navbarmin
-    {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        height: 50%;
-        margin-top: 25%;
-    }
-    #navbarmin li 
-    {
-        list-style: none;
-        margin-bottom: 15%;
-    }
-    #navbarmin a
-    {
-        text-decoration: none;
-        color: white;
-        text-transform: uppercase;
-        font-size: 20px;
-        
-    }
-    #navbar
-    {
-        width: 100%;
-        height: 70px;
-        background-color: black;
-        display: flex;
-        align-items: center;
-    }
-    #navbar li
-    {
-        list-style: none;
-    }
-    #navbar ul
-    {
-        display: flex;
-        width: 100%;
-        height: 100%;
-        margin-right: 5%;
-        align-items: center;
-        justify-content: flex-end;
-        gap: 3%;
-        display: none;
-    }
-    #navbar a
-    {
-        text-decoration: none;
-        color: white;
-        font-size: 20px;
-        text-transform: uppercase;
-    }
-    #logo
-    {
-        width: 40px;
-        height: 40px;
-        margin-left: 3%;
-    }
-    #title
-    {
-        width: 50%;
-    }
-    #backchi
-    {
-        width: 100%;
-        height: 200px;
-        background-color: orange;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-    }
-    #backchi h1
-    {
-        font-size: 50px;
-        font-weight: bolder;
-    }
-    #firstchi
-    {
-        display: table;
-        gap: 10%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    #imgchisiamo
-    {
-        width: 50%;
-        margin-left: 25%;
-        display: table-footer-group;
-        margin-top: 3%;
-    }
-    #firsttext
-    {
-        margin-right: 5%;
-        display: table-header-group;
-    }
-    #firsttext h3
-    {
-        text-align: center;
-    }
-    #ptext
-    {
-        width: 80%;
-        margin-left: 10%;
-    }
-    #footer
-    {
-        background-color: black;
-        height: auto;
-        color: white;
-        padding: 4% 0 4% 0;
-    }
-    .socialicon
-    {
-        width: 30px;
-        height: 30px;
-    }
-    #social
-    {
-        margin-top: 4%;
-        margin-left: 3%;
-    }
-    #footer h4
-    {
-        font-size: 12px;
-        margin-bottom: 3%;
-    }
-    .iconcontact
-    {
-        width: 6%;
-    }
-    #textorari
-    {
-        margin-left: 7%;
-        line-height: 1.5;
-    }
-    #contatti
-    {
-        margin-bottom: 2%;
-        margin-left: 3%;
-    }
-    #social h4
-    {
-        font-size: 14px;
-        margin-bottom: 0;
-    }
-    #orari
-    {
-        margin-top: 4%;
-        margin-left: 3%;
-    }
-    #piva
-    {
-        margin-left: 7%;
-        margin-top: 2%;
-    }
+@media (max-width: 769px) {
+  @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;700;900&family=Montserrat&family=Red+Hat+Display:wght@400;500&family=Rubik:wght@300&display=swap");
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  .op {
+    overflow-y: hidden;
+  }
+
+  #title {
+    width: 50%;
+  }
+  #backchi {
+    width: 100%;
+    height: 200px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  #backchi h1 {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  #firstchi {
+    display: table;
+    gap: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #imgchisiamo {
+    width: 50%;
+    margin-left: 25%;
+    display: table-footer-group;
+    margin-top: 3%;
+  }
+  #firsttext {
+    margin-right: 5%;
+    display: table-header-group;
+  }
+  #firsttext h3 {
+    text-align: center;
+  }
+  #ptext {
+    width: 80%;
+    margin-left: 10%;
+  }
 }
