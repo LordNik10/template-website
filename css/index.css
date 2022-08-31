@@ -142,45 +142,52 @@ body {
   font-weight: bolder;
 }
 
+.imgsocial {
+  width: 30%;
+  margin-top: 8%;
+  margin-left: 5%;
+  transition: all 0.2s;
+}
+
+.imgsocial:hover {
+  transform: scale(1.5);
+  transition: all 0.2s;
+}
+
+.second h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.seconddiv {
+  margin-top: -10%;
+}
+
+.third {
+  margin-top: 8%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.costumers,
+.prof,
+.assistence {
+  text-align: center;
+  width: 33%;
+}
+
+.textcostumers,
+.textprof,
+.textassistence {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 1%;
+  font-size: 13px;
+}
+
 @media all and (max-width: 2000px) {
-  #imgsocial {
-    width: 30%;
-    margin-top: 8%;
-    margin-left: 5%;
-    transition: all 0.5s;
-  }
-  #imgsocial:hover {
-    width: 35%;
-    transition: all 0.5s;
-  }
-  #second h2 {
-    text-transform: uppercase;
-    font-size: 30px;
-  }
-  #seconddiv {
-    margin-top: -10%;
-  }
-  #third {
-    margin-top: 8%;
-    display: flex;
-    align-items: center;
-    margin-bottom: 5%;
-  }
-  #costumers,
-  #prof,
-  #assistence {
-    text-align: center;
-    width: 33%;
-  }
-  #textcostumers,
-  #textprof,
-  #textassistence {
-    width: 50%;
-    text-align: center;
-    margin-left: 25%;
-    margin-top: 1%;
-    font-size: 13px;
-  }
   #fourth h4 {
     font-size: 25px;
     font-weight: bolder;
@@ -267,39 +274,6 @@ body {
     height: 400px;
   }
 
-  #imgsocial {
-    width: 30%;
-    margin-top: 8%;
-    margin-left: 5%;
-  }
-  #second h2 {
-    text-transform: uppercase;
-    font-size: 30px;
-  }
-  #seconddiv {
-    margin-top: -10%;
-  }
-  #third {
-    margin-top: 8%;
-    display: flex;
-    align-items: center;
-    margin-bottom: 5%;
-  }
-  #costumers,
-  #prof,
-  #assistence {
-    text-align: center;
-    width: 33%;
-  }
-  #textcostumers,
-  #textprof,
-  #textassistence {
-    width: 50%;
-    text-align: center;
-    margin-left: 25%;
-    margin-top: 1%;
-    font-size: 13px;
-  }
   #fourth h4 {
     font-size: 25px;
     font-weight: bolder;
@@ -434,39 +408,11 @@ body {
   .scoprisocial {
     font-size: 15px;
   }
-  #imgsocial {
-    width: 30%;
-    margin-top: 8%;
-    margin-left: 5%;
-  }
+
   #second h2 {
-    text-transform: uppercase;
     font-size: 25px;
   }
-  #seconddiv {
-    margin-top: -10%;
-  }
-  #third {
-    margin-top: 8%;
-    display: flex;
-    align-items: center;
-    margin-bottom: 5%;
-  }
-  #costumers,
-  #prof,
-  #assistence {
-    text-align: center;
-    width: 33%;
-  }
-  #textcostumers,
-  #textprof,
-  #textassistence {
-    width: 50%;
-    text-align: center;
-    margin-left: 25%;
-    margin-top: 1%;
-    font-size: 13px;
-  }
+
   #fourth h4 {
     font-size: 25px;
     font-weight: bolder;
@@ -661,13 +607,10 @@ body {
     top: 176px;
   }
   #imgsocial {
-    width: 30%;
     order: 2;
     margin: 0;
   }
   #second h2 {
-    text-transform: uppercase;
-    font-size: 25px;
     margin-top: 2%;
   }
   #seconddiv {
@@ -679,25 +622,14 @@ body {
     text-align: center;
     order: 1;
   }
-  #third {
+  .third {
+    /* align-items: center;
+    justify-content: center;
+    flex-direction: column; */
     margin-top: 8%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
   }
-  #costumers,
-  #prof,
-  #assistence {
-    text-align: center;
-    margin-bottom: 5%;
-  }
-  #textcostumers,
-  #textprof,
-  #textassistence {
-    width: 50%;
-    text-align: center;
-    margin-left: 25%;
-    margin-top: 1%;
-    font-size: 13px;
-  }
+
   #fourth h4 {
     font-size: 25px;
     font-weight: bolder;
