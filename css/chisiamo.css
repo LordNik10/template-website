@@ -31,6 +31,9 @@
 .firsttext {
   margin-right: 5%;
 }
+.footer {
+  grid-row: 4/6;
+}
 
 @media (max-width: 769px) {
   .title {

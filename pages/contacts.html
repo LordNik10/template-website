@@ -1,50 +1,54 @@
 <!DOCTYPE HTML>
-    <html lang="it">
-    <head>
-        <meta charset="utf-8"> 
-        <meta name = "author" content = "">
-        <link rel="icon" type="image/png" sizes="32x32" href="../images/logo.png">
-        <title>TuttoMattolini</title>
-        
-        <!-- CSS --> 
-        <link rel="stylesheet" type="text/css" href="../css/contacts.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <!-- Javascript -->
-        <script src="../js/index.js"></script>
-    </head>
-    <body id="bdy">  
-        <div id="menuhamb" class="animate__animated animate__fadeInLeft">
-            <img src="../images/icon-close.svg" alt="close" id="menuclose" onclick="closemenu()">
-            <nav id="navbarmin">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../pages/chisiamo.html">Chi siamo</a></li>
-                    <li><a href="../pages/contacts.html">Contatti</a></li>
-                </ul>
-                
-            </nav>
-        </div>
+<html lang="it">
 
-        <nav id="navbar">
-            <img src="../images/logo.png" alt="logo" id="logo">
-            <a href="../index.html"><img src="../images/title1.png" alt="title" id="title"></a> 
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/logo.png">
+    <title>TuttoMattolini</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/contacts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Javascript -->
+    <script src="../js/index.js"></script>
+</head>
+
+<body id="bdy">
+    <div id="menuhamb" class="animate__animated animate__fadeInLeft menuhamb">
+        <img src="../images/icon-close.svg" alt="close" id="menuclose" class="menuclose" onclick="closemenu()">
+        <nav id="navbarmin" class="navbarmin">
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="./chisiamo.html">Chi siamo</a></li>
-                <li><a href="./contacts.html">Contatti</a></li>
+                <li><a href="../pages/chisiamo.html">Chi siamo</a></li>
+                <li><a href="../pages/contacts.html">Contatti</a></li>
             </ul>
-            <img src="../images/icon-menu1.svg" alt="menu" id="hamb" onclick="openmenu()">
-        </nav> 
 
-        <div id="backcontact">
+        </nav>
+    </div>
+
+    <nav id="navbar" class="navbar">
+        <img src="../images/logo.png" alt="logo" id="logo" class="logo">
+        <a href="../index.html"><img src="../images/title1.png" alt="title" id="title" class="title"></a>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./chisiamo.html">Chi siamo</a></li>
+            <li><a href="./contacts.html">Contatti</a></li>
+        </ul>
+        <img src="../images/icon-menu1.svg" alt="menu" id="hamb" class="hamb" onclick="openmenu()">
+    </nav>
+
+    <div class="container">
+        <div id="backcontact" class="backcontact">
             <h1>CONTATTI</h1>
         </div>
 
-        <div id="info">
+        <div id="info" class="info">
             <div class="contactsinfo">
                 <img src="../images/posizione1.png" alt="posizione" class="iconcontacts">
                 <h3>Indirizzo</h3>
-                <p>S. Pertini,12 56033 Capannoli (PI)</p> 
+                <p>S. Pertini,12 56033 Capannoli (PI)</p>
             </div>
 
             <div class="contactsinfo">
@@ -74,29 +78,42 @@
             </div>
         </div>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.711330829145!2d10.669527315775973!3d43.59172876442101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a0b2ea02d329b%3A0xa83b4d67dd46a83f!2sPiazza%20Sandro%20Pertini%2C%2012%2C%2056033%20Capannoli%20PI!5e0!3m2!1sit!2sit!4v1640217307639!5m2!1sit!2sit" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.711330829145!2d10.669527315775973!3d43.59172876442101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a0b2ea02d329b%3A0xa83b4d67dd46a83f!2sPiazza%20Sandro%20Pertini%2C%2012%2C%2056033%20Capannoli%20PI!5e0!3m2!1sit!2sit!4v1640217307639!5m2!1sit!2sit"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
 
-        <div id="footer">
-            <div id="contatti">
-                <h4>CONTATTI</h4>
-                <p><img src="../images/posizione.png" alt="posizione" class="iconcontact"> S. Pertini,12 56033 Capannoli (PI)</p>
-                <p><img src="../images/telefono.png" alt="telefono" class="iconcontact"> 0587 608350</p>
-                <p><img src="../images/fax.png" alt="fax" class="iconcontact"> 0587 608351</p>
-                <p><img src="../images/email.png" alt="email" class="iconcontact"> info@tuttomattolini.it</p>
-                <p id="piva">P.IVA:01135810503</p>
 
-            </div>
-            
-            <div id="orari">
-                <h4>ORARI DI APERTURA</h4>
-                <p><img src="../images/orari.png" alt="orologio" class="iconcontact"> Lun:	15.30 - 19.30 <br> <p id="textorari">Mar - Sab: 9.00 - 13.00 15.30 - 19.30 <br> Domenica: Solo Dicembre 15.30 - 19.30 </p></p>
-            </div>
 
-            <div id="social">
-                <h4>SOCIAL</h4>
-                <a href="https://www.facebook.com/TuttoMattolini" target="_blank"><img src="../images/fb.png" alt="facebook" class="socialicon"></a>
-                <a href="https://www.instagram.com/tuttomattolini/" target="_blank"><img src="../images/inst.png" alt="instagram" class="socialicon"></a>
-            </div>        
+    <div id="footer" class="footer">
+        <div id="contatti" class="contatti">
+            <h4>CONTATTI</h4>
+            <p><img src="../images/posizione.png" alt="posizione" class="iconcontact"> S. Pertini,12 56033 Capannoli
+                (PI)
+            </p>
+            <p><img src="../images/telefono.png" alt="telefono" class="iconcontact"> 0587 608350</p>
+            <p><img src="../images/fax.png" alt="fax" class="iconcontact"> 0587 608351</p>
+            <p><img src="../images/email.png" alt="email" class="iconcontact"> info@tuttomattolini.it</p>
+            <p id="piva" class="piva">P.IVA:01135810503</p>
+
         </div>
-    </body>
+
+        <div id="orari" class="orari">
+            <h4>ORARI DI APERTURA</h4>
+            <p><img src="../images/orari.png" alt="orologio" class="iconcontact"> Lun: 15.30 - 19.30 <br>
+            <p id="textorari" class="textorari">Mar - Sab: 9.00 - 13.00 15.30 - 19.30 <br> Domenica: Solo Dicembre 15.30
+                - 19.30 </p>
+            </p>
+        </div>
+
+        <div id="social" class="social">
+            <h4>SOCIAL</h4>
+            <a href="https://www.facebook.com/TuttoMattolini" target="_blank"><img src="../images/fb.png" alt="facebook"
+                    class="socialicon"></a>
+            <a href="https://www.instagram.com/tuttomattolini/" target="_blank"><img src="../images/inst.png"
+                    alt="instagram" class="socialicon"></a>
+        </div>
+    </div>
+</body>
+
 </html>
