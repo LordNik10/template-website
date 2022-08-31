@@ -1,12 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;700;900&family=Montserrat&family=Red+Hat+Display:wght@400;500&family=Rubik:wght@300&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
 .title {
   width: 60%;
 }
@@ -25,79 +16,47 @@ body {
   font-size: 50px;
   font-weight: bolder;
 }
-@media all and (max-width: 2000px) {
-  #firstchi {
-    display: flex;
-    gap: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
-  #imgchisiamo {
-    width: 40%;
-    margin-left: 5%;
-  }
-  #firsttext {
-    margin-right: 5%;
-  }
+
+.firstchi {
+  display: flex;
+  gap: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-@media all and (max-width: 1390px) {
-  #firstchi {
-    display: flex;
-    gap: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
-  #imgchisiamo {
-    width: 40%;
-    margin-left: 5%;
-  }
-  #firsttext {
-    margin-right: 5%;
-  }
+.imgchisiamo {
+  width: 40%;
+  margin-left: 5%;
 }
-
-@media all and (max-width: 1100px) {
-  #firstchi {
-    display: flex;
-    gap: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
-  #imgchisiamo {
-    width: 40%;
-    margin-left: 5%;
-  }
-  #firsttext {
-    margin-right: 5%;
-  }
+.firsttext {
+  margin-right: 5%;
 }
 
 @media (max-width: 769px) {
-  #title {
+  .title {
     width: 50%;
   }
 
-  #firstchi {
+  .firstchi {
     display: table;
     gap: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
   }
-  #imgchisiamo {
+  .imgchisiamo {
     width: 50%;
     margin-left: 25%;
     display: table-footer-group;
     margin-top: 3%;
   }
-  #firsttext {
+  .firsttext {
     margin-right: 5%;
     display: table-header-group;
   }
-  #firsttext h3 {
+  .firsttext h3 {
     text-align: center;
   }
-  #ptext {
+  .ptext {
     width: 80%;
     margin-left: 10%;
   }
