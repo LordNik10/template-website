@@ -85,11 +85,11 @@ body {
   width: 20px;
 }
 
-.textorari {
+.texthours {
   line-height: 1.5;
 }
 
-.contatti {
+.contacts {
   margin-top: 2%;
   margin-bottom: 2%;
   display: flex;
@@ -102,7 +102,7 @@ body {
   margin-bottom: 0;
 }
 
-.orari {
+.hours {
   margin-top: 2%;
 }
 
@@ -153,7 +153,7 @@ body {
     height: 50%;
     margin-top: 25%;
   }
-  .menuclose {
+  .navclose {
     margin-top: 2%;
     margin-left: 2%;
     width: 7%;
@@ -200,14 +200,14 @@ body {
     margin-left: 3%;
   }
 
-  .contatti {
+  .contacts {
     margin-left: 3%;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
   }
 
-  .orari {
+  .hours {
     display: flex;
     align-items: flex-start;
     justify-content: center;

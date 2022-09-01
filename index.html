@@ -18,12 +18,12 @@
 </head>
 
 <body onLoad="start()" id="bdy">
-    <div id="menuhamb" class="animate__animated animate__fadeInLeft menuhamb">
-        <img src="./images/icon-close.svg" alt="close" id="menuclose" class="menuclose" onclick="closemenu()">
+    <div id="navhamb" class="animate__animated animate__fadeInLeft menuhamb">
+        <img src="./images/icon-close.svg" alt="close" id="navclose" class="navclose" onclick="closemenu()">
         <nav id="navbarmin" class="navbarmin">
             <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./pages/chisiamo.html">About Us</a></li>
+                <li><a href="./pages/aboutus.html">About Us</a></li>
                 <li><a href="./pages/contacts.html">Contacts</a></li>
             </ul>
         </nav>
@@ -35,34 +35,34 @@
         </a>
         <ul>
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./pages/chisiamo.html">About Us</a></li>
+            <li><a href="./pages/aboutus.html">About Us</a></li>
             <li><a href="./pages/contacts.html">Contacts</a></li>
         </ul>
-        <img src="./images/icon-menu1.svg" alt="menu" id="hamb" class="hamb" onclick="openmenu()">
+        <img src="./images/icon-menu1.svg" alt="navbar" id="hamb" class="hamb" onclick="openmenu()">
     </nav>
     <div class="container">
         <div id="back" class="back">
             <h1 class="titlehome">Dream Taste</h1>
-            <!-- <img src="./images/title1.png" alt="titlehome" id="titlehome" class="titlehome"> -->
             <h2>We have been offering the best meal to our customers for more than 80 years</h2>
         </div>
 
         <div id="first" class="first">
-            <div id="cat" class="cat">
+            <div id="first-text" class="first-text">
                 <h2>History</h2>
-                <p id="cattext" class="cattext">The food and service at dream taste is like nothing you’ve tasted
+                <p id="first-text-p" class="first-text-p">The food and service at dream taste is like nothing you’ve
+                    tasted
                     before. A restaurant and bar that feels like a home away from home. We serve American cuisine that
                     is out of this world, literally. We have a dedicated team of chefs who are passionate about their
                     craft. Our menu is small but diverse, offering something new each and every day. The doors are open
                     to all visitors 24 hours a day, 7 days a week!
                 </p>
-                <form action="./pages/chisiamo.html" id="formbtn" class="formbtn">
-                    <button type="submit" id="btncat" class="btncat">Find out more
+                <form action="./pages/aboutus.html" id="formbtn" class="formbtn">
+                    <button type="submit" id="btnhistory" class="btnhistory">Find out more
                     </button>
                 </form>
 
             </div>
-            <img src="./images/home1.jpg" alt="catalogo" id="home1" class="imghistory">
+            <img src="./images/home1.jpg" alt="imghistory" id="home1" class="imghistory">
         </div>
 
         <div class="second">
@@ -128,65 +128,37 @@
             </div>
 
         </div>
-
-        <!-- <div id="fourth" class="fourth">
-            <div id="fourthtext" class="fourthtext">
-                <h4>I NOSTRI SERVIZI</h4>
-                <P>Offriamo numerosi servizi per aiutare i nostri clienti e collaboriamo con numerosi partners.</P>
-                <ul>
-                    <li>Consulenza sui prodotti</li>
-                    <li>Consegna ed installazione elettrodomestici</li>
-                    <li>Liste di Nozze</li>
-                    <li>Assistenza informatica</li>
-                    <li>Impianti antenna (satellitare e digitale terrestre)</li>
-                    <li>Sky Center</li>
-                    <li>Centro TIM</li>
-                    <li>Gruppo di acquisto EXPERT</li>
-                </ul>
-            </div>
-
-            <div id="partners" class="partners">
-                <h4>I NOSTRI PARTNERS</h4>
-                <div id="part" class="part">
-                    <img src="./images/icon-previous.svg" alt="prev" class="iconpart" onclick="prev();">
-                    <img src="./images/tim.jpg" alt="tim" id="imgpart" class="imgpart">
-                    <img src="./images/icon-next.svg" alt="next" class="iconpart" onclick="next();">
-                </div>
-
-            </div>
-
-        </div> -->
     </div>
 
 
     <!--Footer-->
     <div id="footer" class="footer">
-        <div id="contatti" class="contatti">
+        <div id="contacts" class="contacts">
             <h4>CONTACTS</h4>
-            <p><img src="./images/posizione.png" alt="posizione" class="iconcontact"> Street 6th
+            <p><img src="./images/position.png" alt="posizione" class="iconcontact"> Street 6th
             </p>
-            <p><img src="./images/telefono.png" alt="telefono" class="iconcontact"> 12395763</p>
+            <p><img src="./images/telephone.png" alt="telefono" class="iconcontact"> 12395763</p>
             <p><img src="./images/fax.png" alt="fax" class="iconcontact"> 51895637</p>
             <p><img src="./images/email.png" alt="email" class="iconcontact"> dreamtasteinfo@info.it</p>
             <p id="piva" class="piva">P.IVA:651649823</p>
 
         </div>
 
-        <div id="orari" class="orari">
+        <div id="hours" class="hours">
             <h4>OPENING HOURS
             </h4>
-            <p><img src="./images/orari.png" alt="orologio" class="iconcontact"> Mon: 15.30 - 19.30 <br>
-            <p id="textorari" class="textorari">Tue - Sat: 9.00 - 13.00 15.30 - 19.30 <br> Sund: 15.30
+            <p><img src="./images/orari.png" alt="clock" class="iconcontact"> Mon: 15.30 - 19.30 <br>
+            <p id="texthours" class="texthours">Tue - Sat: 9.00 - 13.00 15.30 - 19.30 <br> Sund: 15.30
                 - 19.30 </p>
             </p>
         </div>
 
         <div id="social" class="social">
             <h4>SOCIAL</h4>
-            <a href="https://www.facebook.com/TuttoMattolini" target="_blank"><img src="./images/fb.png" alt="facebook"
+            <a href="https://www.facebook.com/" target="_blank"><img src="./images/fb.png" alt="facebook"
                     class="socialicon"></a>
-            <a href="https://www.instagram.com/tuttomattolini/" target="_blank"><img src="./images/inst.png"
-                    alt="instagram" class="socialicon"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./images/inst.png" alt="instagram"
+                    class="socialicon"></a>
         </div>
     </div>
 </body>

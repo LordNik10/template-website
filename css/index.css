@@ -43,21 +43,21 @@
   height: 500px;
 }
 
-.cat {
+.first-text {
   margin-left: 5%;
 }
 
-.cattext {
+.first-text-p {
   width: 80%;
 }
 
-.cat h2 {
+.first-text h2 {
   margin-bottom: 3%;
   font-size: 30px;
   text-transform: uppercase;
 }
 
-.btncat {
+.btnhistory {
   width: 30%;
   height: 50px;
   border-radius: 10px;
@@ -262,11 +262,11 @@
     height: 300px;
   }
 
-  .cattext {
+  .first-text-p {
     font-size: 15px;
   }
 
-  .btncat {
+  .btnhistory {
     font-weight: 700;
   }
   .second {
@@ -294,59 +294,6 @@
 }
 
 @media (max-width: 769px) {
-  .op {
-    overflow-y: hidden;
-  }
-  .menuhamb {
-    background-color: black;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: none;
-    transition: 0.5s all;
-  }
-  .navbarmin {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 50%;
-    margin-top: 25%;
-  }
-  .menuclose {
-    margin-top: 2%;
-    margin-left: 2%;
-    width: 7%;
-    cursor: pointer;
-  }
-  .navbarmin li {
-    list-style: none;
-    margin-bottom: 15%;
-  }
-  .navbarmin a {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-
-  .navbar ul {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    margin-right: 5%;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 3%;
-    display: none;
-  }
-  .hamb {
-    width: 4%;
-    margin-right: 3%;
-    cursor: pointer;
-    display: block;
-  }
-
   .first {
     width: 100%;
     height: 650px;
@@ -361,16 +308,16 @@
     margin: 0;
   }
 
-  .cattext {
+  .first-text-p {
     margin-left: 10%;
   }
-  .cat h2 {
+  .first-text h2 {
     text-align: center;
   }
   .formbtn {
     text-align: center;
   }
-  .btncat {
+  .btnhistory {
     font-weight: 700;
     margin-bottom: 3%;
   }
