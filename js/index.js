@@ -6,19 +6,21 @@ function start() {
 
 function changeback() {
   var b = document.getElementById("back");
-  switch (t) {
-    case 1:
-      b.style.backgroundImage = 'url("./images/imgbackground1.jpg")';
-      t++;
-      break;
-    case 2:
-      b.style.backgroundImage = 'url("./images/imgbackground2.jpg")';
-      t++;
-      break;
-    case 3:
-      b.style.backgroundImage = 'url("./images/imgbackground3.jpg")';
-      t = 1;
-      break;
+  if (b) {
+    switch (t) {
+      case 1:
+        b.style.backgroundImage = 'url("./images/imgbackground1.jpg")';
+        t++;
+        break;
+      case 2:
+        b.style.backgroundImage = 'url("./images/imgbackground2.jpg")';
+        t++;
+        break;
+      case 3:
+        b.style.backgroundImage = 'url("./images/imgbackground3.jpg")';
+        t = 1;
+        break;
+    }
   }
 }
 
