@@ -356,8 +356,8 @@
     margin-top: 5%;
   }
   .imghistory {
-    height: 200px;
-    width: 80%;
+    height: 300px;
+    width: 50%;
     margin: 0;
   }
 
@@ -379,7 +379,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 450px;
+    height: 550px;
     gap: 10%;
   }
   .secondtext {
@@ -413,6 +413,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 5%;
+    height: 900px;
     margin-top: 8%;
     margin-bottom: 10%;
   }
@@ -427,5 +428,8 @@
   }
   .footer {
     grid-row: 4/6;
+  }
+  .social-container {
+    margin-top: 10%;
   }
 }
