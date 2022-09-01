@@ -19,18 +19,18 @@
 
 .firstchi {
   display: flex;
+  justify-content: center;
   gap: 10%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
 .imgchisiamo {
-  width: 50%;
+  width: 410px;
   height: 500px;
-  margin-left: 5%;
 }
 .firsttext {
-  margin-right: 5%;
+  width: 30%;
 }
 .footer {
   grid-row: 4/6;
