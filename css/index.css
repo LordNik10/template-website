@@ -9,6 +9,9 @@
   background-repeat: round;
   background-size: cover;
   transition: all 0.8s;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .back h2 {
@@ -19,8 +22,9 @@
 }
 
 .titlehome {
-  width: 50%;
-  margin-left: 25%;
+  margin-top: 5%;
+  font-size: 50px;
+  color: white;
 }
 
 .first {
@@ -28,18 +32,18 @@
   height: 500px;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   margin-bottom: 5%;
   margin-top: 5%;
 }
 
-.imgcatalogoonline {
-  width: 30%;
+.imghistory {
+  width: 25%;
   margin-right: 8%;
+  height: 500px;
 }
 
 .cat {
-  margin-right: 5%;
-  margin-top: 2%;
   margin-left: 5%;
 }
 
@@ -66,14 +70,28 @@
   margin-top: 7%;
 }
 
+.btnmenu {
+  width: 30%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #fb984c;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  margin-top: 7%;
+  text-decoration: none;
+  padding: 15px;
+}
+
 .second {
   display: flex;
   width: 100%;
   height: 500px;
-  align-items: center;
+  align-items: flex-start;
   margin-top: 3%;
-  gap: 4%;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: lightgray;
 }
 
@@ -105,15 +123,22 @@
 }
 
 .seconddiv {
-  margin-top: -10%;
+  margin-top: 4%;
+  width: 50%;
 }
 
 .third {
-  margin-top: 8%;
   display: flex;
   align-items: center;
-  margin-bottom: 5%;
+  height: 500px;
   gap: 8%;
+}
+
+.costumers {
+  margin-left: 2%;
+}
+.assistence {
+  margin-right: 2%;
 }
 
 .costumers,
@@ -193,8 +218,14 @@
   justify-content: center;
 }
 
+.imgmenu {
+  width: 30%;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
 @media all and (max-width: 1300px) {
-  .imgcatalogoonline {
+  .imghistory {
     height: 400px;
   }
 }
@@ -220,14 +251,14 @@
     font-size: 20px;
     margin-top: 4%;
   }
-  .titlehome {
+  /* .titlehome {
     width: 40%;
     margin-left: 30%;
-  }
+  } */
   .first {
     height: 450px;
   }
-  .imgcatalogoonline {
+  .imghistory {
     height: 300px;
   }
 
@@ -318,14 +349,15 @@
 
   .first {
     width: 100%;
-    height: 450px;
+    height: 650px;
     flex-direction: column;
     align-items: center;
     margin-bottom: 5%;
     margin-top: 5%;
   }
-  .imgcatalogoonline {
-    height: 150px;
+  .imghistory {
+    height: 200px;
+    width: 80%;
     margin: 0;
   }
 
