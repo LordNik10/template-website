@@ -246,6 +246,9 @@
   .title {
     width: 50%;
   }
+  .back {
+    height: 450px;
+  }
 
   .back h2 {
     font-size: 20px;
@@ -373,6 +376,7 @@
   .assistence,
   .prof {
     margin-bottom: 5%;
+    width: 70%;
   }
 
   .fourth ul {
