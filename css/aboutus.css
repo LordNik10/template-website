@@ -63,5 +63,6 @@
   .ptext {
     width: 80%;
     margin-left: 10%;
+    font-size: var(--size-small);
   }
 }

@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;700;900&family=Montserrat&family=Red+Hat+Display:wght@400;500&family=Rubik:wght@300&display=swap");
+:root {
+  --size-small: 12px;
+  --size-default: 15px;
+  --size-big: 20px;
+  --size-bigXL: 30px;
+  --size-bigXXL: 40px;
+  --size-bigXXXL: 50px;
+}
 * {
   margin: 0;
   padding: 0;
